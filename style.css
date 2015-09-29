@@ -1,0 +1,263 @@
+/*
+Theme Name: 1997
+Theme URI: http://danielgenser.com/1997
+Description: Going back to basics
+Version: 0.1
+Author: Daniel Genser
+Author URI: http://danielgenser.com
+*/
+@import url(normalize.min.css);
+html {
+  border: 0;
+  background: #232323;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%; }
+
+body {
+  box-sizing: border-box;
+  background: #232323;
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+
+.container {
+  box-sizing: border-box;
+  max-width: 720px;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: left; }
+
+.masthead {
+  margin-bottom: 1rem;
+  display: flex; }
+  .masthead .logo, .masthead .bio {
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: baseline; }
+  .masthead .bio {
+    text-align: right; }
+
+.post-list {
+  margin: 6rem 0 0;
+  padding: 0; }
+  .post-list .post {
+    margin-bottom: 1rem;
+    padding: 0;
+    list-style: none; }
+    .post-list .post h2 {
+      display: inline-block;
+      vertical-align: baseline; }
+    .post-list .post .post-date {
+      display: inline-block;
+      vertical-align: baseline; }
+
+.article_title_container {
+  margin: 6rem auto 3rem; }
+
+.article_meta_footer {
+  margin: 2rem 0; }
+
+.post-container img {
+  max-width: 100%;
+  height: auto; }
+
+.wp-caption {
+  max-width: 100%; }
+  .wp-caption.alignleft {
+    float: left;
+    margin: .5rem .5rem .5rem 0; }
+    @media (max-width: 600px) {
+      .wp-caption.alignleft {
+        float: none;
+        margin: .5rem auto; } }
+  .wp-caption.alignright {
+    float: right;
+    margin: .5rem 0 .5rem .5rem; }
+    @media (max-width: 600px) {
+      .wp-caption.alignright {
+        float: none;
+        margin: .5rem auto; } }
+  .wp-caption.aligncenter {
+    float: none;
+    margin: .5rem auto; }
+  .wp-caption .wp-caption-text {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    font-style: bold;
+    font-size: .8rem;
+    line-height: 1.2;
+    font-weight: bold;
+    padding: 0 .2rem .5rem .2rem;
+    margin: 0;
+    text-align: center;
+    color: #ccc; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%; }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+html, body {
+  font-size: 19px; }
+
+.container {
+  font-family: "Fira Mono", "Courier Prime", "Courier New", Courier, Monospace;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #fff; }
+
+.masthead, .article_meta, .post-date {
+  text-transform: uppercase;
+  font-size: .6rem;
+  line-height: 2;
+  letter-spacing: 2%; }
+  .masthead a, .article_meta a, .post-date a {
+    text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -.02%; }
+
+h1 {
+  font-size: 3.8rem;
+  line-height: .9;
+  margin: 0; }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2.5rem; } }
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 1.1; }
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 2rem; } }
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.1; }
+  @media (max-width: 600px) {
+    h3 {
+      font-size: 1.8rem; } }
+
+h4 {
+  font-size: 2rem;
+  line-height: 1.1; }
+  @media (max-width: 600px) {
+    h4 {
+      font-size: 1.6rem; } }
+
+h5 {
+  font-size: 1.6rem;
+  line-height: 1.1; }
+  @media (max-width: 600px) {
+    h5 {
+      font-size: 1.4rem; } }
+
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.1; }
+
+a {
+  color: #E6D445;
+  text-decoration: none;
+  transition: color 300ms ease-in-out; }
+  a:hover {
+    color: #ffe72c;
+    text-decoration: underline;
+    transition: color 300ms ease-in-out; }
+  a.site_title {
+    background: #E6D445;
+    color: #111111;
+    display: inline-block;
+    padding: 0 8px; }
+    a.site_title:hover {
+      background: #ffe72c;
+      text-decoration: none; }
+
+.muted {
+  color: #ccc; }
+
+p {
+  font-size: 0.8rem;
+  line-height: 1.6; }
+  p + p {
+    margin-bottom: 2rem; }
+
+ol {
+  font-size: 0.8rem;
+  margin: 0 0 3rem 0;
+  padding: 0; }
+  ol li {
+    margin-bottom: 1rem;
+    list-style-position: inside; }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: block;
+  width: 300px;
+  margin: 2rem auto;
+  padding: 0; }
+
+blockquote.quote-small p {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2; }
+
+blockquote.quote-medium p {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.2; }
+  @media (max-width: 600px) {
+    blockquote.quote-medium p {
+      font-size: 1.2rem; } }
+
+blockquote.quote-large p {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.2; }
+  @media (max-width: 600px) {
+    blockquote.quote-large p {
+      font-size: 1.5rem; } }
+
+.alt-char {
+  font-family: georgia, serif; }
+
+.post-list .post h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -.5px;
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+  .post-list .post h2:hover {
+    color: #E6D445; }
+.post-list .post .post-date {
+  font-family: "Fira", Courier, Monospace;
+  font-size: .6rem;
+  line-height: 1;
+  color: #ccc; }
+
+/*# sourceMappingURL=style.css.map */
