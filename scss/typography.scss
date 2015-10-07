@@ -1,0 +1,177 @@
+html {
+	font-size: 19px;	
+}
+
+.container {
+	font-family: $body-font;
+	font-size: 1rem;
+	line-height: 1.8;
+	color: $white;
+}
+
+.masthead, .article_meta, .post-date {
+	text-transform: uppercase;
+	font-size: .6rem;
+	line-height: 2;
+	letter-spacing: 2%;
+	a {
+		text-decoration: none;
+	}
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font;
+	font-weight: bold;
+	letter-spacing: -.02%;
+	line-height: 1.1;
+}
+h1 {
+	font-size: 3.8rem;
+	line-height: .9;
+	margin: 0;
+	@media (600px){
+		font-size: 2.5rem;
+	}
+}
+h2 {
+	font-size: 2.8rem;
+	@media (600px){
+		font-size: 2rem;
+	}	
+}
+h3 {
+	font-size: 2.4rem;
+	@media (600px){
+		font-size: 1.8rem;
+	}	
+}
+h4 {
+	font-size: 2rem;
+	@media (600px){
+		font-size: 1.6rem;
+	}	
+}
+h5 {
+	font-size: 1.6rem;
+	@media (600px){
+		font-size: 1.4rem;
+	}	
+}
+h6 {
+	font-size: 1.2rem;
+}
+
+a {
+	color: $yellow;
+	text-decoration: none;
+	transition: color 300ms ease-in-out;
+	&:hover {
+		color: saturate($yellow, 20%);
+		text-decoration: underline;
+		transition: color 300ms ease-in-out;
+	}
+	&.site_title {
+		background: $yellow;
+		color: $black;
+		&:hover {
+			background: saturate($yellow, 20%);
+			text-decoration: none;
+			color: $black;
+		}
+	}
+}
+
+p {
+	font-size: .8rem;
+	line-height: 1.6;
+	p + p {
+		margin-bottom: 2rem;
+	}
+}
+
+ol {
+	font-size: .8rem;
+	margin: 0 0 3rem 0;
+	padding: 0;
+	li {
+		margin-bottom: 1rem;
+		list-style-position: inside;
+	}
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	display: block;
+	width: 300px;
+	margin: 2rem auto;
+	padding: 0; 
+ }
+
+blockquote p{
+	font-family: $heading-font;
+	font-weight: bold;
+	line-height: 1.2;
+}
+blockquote.quote-small p {
+	font-size: 1rem;	
+}
+blockquote.quote-medium p {
+	font-size: 1.4rem;
+	@media (600px){
+		font-size: 1.2rem;
+	}	
+}
+blockquote.quote-large p {
+	font-size: 1.8rem;
+	@media (600px){
+		font-size: 1.5rem;
+	}	
+}
+
+
+.muted {
+	color: $gray;
+}
+.alt-char {
+	font-family: baskerville, georgia, serif;
+}
+
+.wp-caption {
+	.wp-caption-text {
+		font-family: $heading-font;
+		font-weight: bold;
+		font-size: .8rem;
+		line-height: 1.2;
+		text-align: center;
+		color: $gray;
+	}
+}
+
+.post-list {
+	.post {
+		h2 {
+			font-family: $heading-font;
+			font-size: 1.2rem;
+			line-height: 1.1;
+			font-weight: bold;
+			letter-spacing: -.5px;
+			margin: 0;
+			padding: 0;
+			color: $white;
+			&:hover {
+				color: $yellow;
+			}
+		}
+		.post-date {
+			font-family: $body-font;
+			font-size: .6rem;
+			line-height: 1;
+			color: $gray;
+			font-weight: 400;
+		}
+	}
+}
