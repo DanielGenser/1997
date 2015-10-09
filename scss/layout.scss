@@ -45,12 +45,10 @@ html, body {
 		padding: 0;
 		list-style: none;	
 		h2 {
-			display: inline-block;
-			vertical-align: baseline;
+			display: block;
 		}	
 		.post-date {
-			display: inline-block;
-			vertical-align: baseline;
+			display: block;
 		}
 	}
 }
@@ -72,10 +70,18 @@ html, body {
 	&.alignleft {
 		float: left;
 		margin: .5rem .5rem .5rem 0;
+		@media (max-width: $handheld){
+			float: none;
+			margin: .5rem auto;
+		}
 	}
 	&.alignright {
 		float: right;
 		margin: .5rem 0 .5rem .5rem;
+		@media (max-width: $handheld){
+			float: right;
+			margin: .5rem 0 .5rem .5rem;
+		}
 	}
 	&.aligncenter {
 		float: none;

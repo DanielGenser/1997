@@ -42,11 +42,9 @@ html, body {
     padding: 0;
     list-style: none; }
     .post-list .post h2 {
-      display: inline-block;
-      vertical-align: baseline; }
+      display: block; }
     .post-list .post .post-date {
-      display: inline-block;
-      vertical-align: baseline; }
+      display: block; }
 
 .article_title_container {
   margin: 6rem auto 3rem; }
@@ -63,9 +61,17 @@ html, body {
   .wp-caption.alignleft {
     float: left;
     margin: .5rem .5rem .5rem 0; }
+    @media (max-width: 600px) {
+      .wp-caption.alignleft {
+        float: none;
+        margin: .5rem auto; } }
   .wp-caption.alignright {
     float: right;
     margin: .5rem 0 .5rem .5rem; }
+    @media (max-width: 600px) {
+      .wp-caption.alignright {
+        float: right;
+        margin: .5rem 0 .5rem .5rem; } }
   .wp-caption.aligncenter {
     float: none;
     margin: .5rem auto; }
@@ -219,6 +225,8 @@ blockquote.quote-large p {
   text-align: center;
   color: #cccccc; }
 
+.post-list .post .post-link {
+  text-decoration: none; }
 .post-list .post h2 {
   font-family: "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 1.2rem;
@@ -233,8 +241,9 @@ blockquote.quote-large p {
 .post-list .post .post-date {
   font-family: "Fira Mono", "Courier Prime", "Courier New", courier, monospace;
   font-size: .6rem;
-  line-height: 1;
+  line-height: 2;
   color: #cccccc;
-  font-weight: 400; }
+  font-weight: 400;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

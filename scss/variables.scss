@@ -2,7 +2,7 @@
 
 $black:				#232323;
 $white:				#ffffff;
-$yellow:			#e6D445;
+$yellow:			#F7E53B;
 $gray:				#cccccc;
 
 $link-color:		$yellow;
@@ -14,7 +14,8 @@ $link-color:		$yellow;
 $body-font:			"Fira Mono", "Courier Prime", "Courier New", courier, monospace;
 $heading-font:		"Helvetica Neue", helvetica, arial, sans-serif;
 
-
+// Breakpoints
+$handheld: 			600px;
 
 // Mixins
 

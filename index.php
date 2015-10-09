@@ -6,9 +6,9 @@
 	<?php while (have_posts()) : the_post(); ?>
 
 	<div <?php post_class() ?>>
-		<a href="<?php the_permalink() ?>">
-			<h2><?php the_title(); ?> <span class="post-date"><?php the_time('M j Y'); ?></span></h2> 
-			
+		<a class="post-link" href="<?php the_permalink() ?>">
+			<h2><?php the_title(); ?></h2> 
+			<span class="post-date"><?php the_time('M j Y'); ?></span>			
 	    </a>
 	</div>
 

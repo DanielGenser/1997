@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/favicon.png">
 	<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'> 
 	<!-- Facebook share default img -->
-	<link rel="img_src" href="<?php bloginfo('template_url'); ?>/img/favicon.png" />
+	<link rel="img_src" href="<?php bloginfo('template_url'); ?>/img/social-media-default-share.png" />
 	<?php wp_head(); ?>
 </head>
 <body>
