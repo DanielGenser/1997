@@ -152,18 +152,18 @@ h6 {
   font-size: 1.2rem; }
 
 a {
-  color: #e6D445;
+  color: #F7E53B;
   text-decoration: none;
   transition: color 300ms ease-in-out; }
   a:hover {
-    color: #fbe430;
+    color: #ffeb33;
     text-decoration: underline;
     transition: color 300ms ease-in-out; }
   a.site_title {
-    background: #e6D445;
+    background: #F7E53B;
     color: #232323; }
     a.site_title:hover {
-      background: #fbe430;
+      background: #ffeb33;
       text-decoration: none;
       color: #232323; }
 
@@ -173,11 +173,11 @@ p {
   p p + p {
     margin-bottom: 2rem; }
 
-ol {
+ol, ul {
   font-size: .8rem;
   margin: 0 0 3rem 0;
   padding: 0; }
-  ol li {
+  ol li, ul li {
     margin-bottom: 1rem;
     list-style-position: inside; }
 
@@ -237,7 +237,7 @@ blockquote.quote-large p {
   padding: 0;
   color: #ffffff; }
   .post-list .post h2:hover {
-    color: #e6D445; }
+    color: #F7E53B; }
 .post-list .post .post-date {
   font-family: "Fira Mono", "Courier Prime", "Courier New", courier, monospace;
   font-size: .6rem;
