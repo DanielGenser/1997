@@ -181,6 +181,14 @@ ol, ul {
     margin-bottom: 1rem;
     list-style-position: inside; }
 
+ul.checklist {
+  list-style: none; }
+  ul.checklist li {
+    background: transparent url(img/unchecked.svg) no-repeat center left;
+    padding-left: 2rem; }
+    ul.checklist li.checked {
+      background: transparent url(img/checked.svg) no-repeat center left; }
+
 hr {
   border: 0;
   height: 0;

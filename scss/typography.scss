@@ -100,6 +100,17 @@ ol, ul {
 	}
 }
 
+ul.checklist {		
+	list-style: none;
+	li {
+		background: transparent url(img/unchecked.svg) no-repeat center left;			
+		padding-left: 2rem;
+		&.checked {
+			background: transparent url(img/checked.svg) no-repeat center left;
+		}		
+	}
+}
+
 hr {
 	border: 0;
 	height: 0;
