@@ -103,10 +103,10 @@ ol, ul {
 ul.checklist {		
 	list-style: none;
 	li {
-		background: transparent url(img/unchecked.svg) no-repeat center left;			
-		padding-left: 2rem;
+		background: transparent url(img/unchecked.svg) no-repeat top left;			
+		padding: .3rem 0 0 2rem;
 		&.checked {
-			background: transparent url(img/checked.svg) no-repeat center left;
+			background: transparent url(img/checked.svg) no-repeat top left;
 		}		
 	}
 }
